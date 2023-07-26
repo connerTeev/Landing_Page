@@ -148,7 +148,7 @@ h1 {
 }
 
 .sign-up-section {
-    height: 300px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,8 +159,8 @@ h1 {
     background-color: #3882F6;
     color: white;
     padding: 3rem 7rem;
-    gap: 5rem;
-    border-radius: 5px;
+    gap: 10rem;
+    border-radius: 8px;
 }
 
 .call-to-action button {
@@ -176,4 +176,13 @@ h1 {
 .call-to-action button a {
     color: white;
     text-decoration: none;
+}
+
+footer > p {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
