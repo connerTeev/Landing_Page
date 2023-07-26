@@ -8,7 +8,7 @@
 header {
     background-color: #1F2937;
     color: white;
-    height: 350px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,6 @@ header {
 
 .logo a {
     color: white;
-
     text-decoration: none;
 }
 
@@ -42,7 +41,7 @@ nav ul {
 
 nav ul li {
     list-style-type: none;
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
 nav ul li a {
@@ -53,43 +52,74 @@ list-style-type: none;
 
 h1 {
     font-size: 48px;
-    max-width: 400px;
+    max-width: 350px;
+    padding-bottom: .5rem;
 }
 
 .header-left {
-    padding-left: 5rem;
-    max-height: 200px;
+    max-height: 350px;
+    width: 30rem;
+    gap: 5rem;
 }
 
 .header-left p {
     font-size: 18px;
     color: #E5E7EB;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    flex-wrap: nowrap;
+    padding-bottom: .5rem;
+
 }
 
 .header-left button {
-    width: 7rem;
+    width: 6rem;
     height: 2rem;
     color: white;
+    font-size: 18px;
     background-color: #3882F6;
     border-color: #3882F6;
-    border-radius: 6px;
+    border-radius: 8px;
     border-style: none;
 }
 
 .header-right {
-    flex: 1;
-    padding-right: 5rem;
+    max-height: 350px;
+    width: 35rem;
 }
 
 .img-holder {
-    height: 200px;
-    width: 30rem;
+    height: 250px;
+    width: 35rem;
     background-color: grey;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.info-gallery-section h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    padding-top: 3rem;
+}
+
+.info-gallery-section p {
+    width: 9rem;
+    text-align: center;
+}
+
+.illustration-gallery {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 6rem;
+}
+
+.illustration-frame {
+    height: 10rem;
+    width: 10rem;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
 }
