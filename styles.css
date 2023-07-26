@@ -12,6 +12,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5rem;
 }
 
 .logo {
@@ -29,7 +30,10 @@ nav {
     justify-content: space-between;
     background-color: #1F2937;
     color: white;
-}
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top:1rem;
+    }
 
 nav ul {
     display: flex;
@@ -38,6 +42,7 @@ nav ul {
 
 nav ul li {
     list-style-type: none;
+    padding-left: 1rem;
 }
 
 nav ul li a {
@@ -48,6 +53,12 @@ list-style-type: none;
 
 h1 {
     font-size: 48px;
+    max-width: 400px;
+}
+
+.header-left {
+    padding-left: 5rem;
+    max-height: 200px;
 }
 
 .header-left p {
@@ -56,14 +67,29 @@ h1 {
     justify-content: center;
     align-items: center;
     flex: 1;
-    width: 50%;
+    flex-wrap: nowrap;
+}
+
+.header-left button {
+    width: 7rem;
+    height: 2rem;
+    color: white;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 6px;
+    border-style: none;
 }
 
 .header-right {
     flex: 1;
+    padding-right: 5rem;
 }
 
 .img-holder {
     height: 200px;
+    width: 30rem;
     background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
